@@ -55,16 +55,16 @@
                 <directory>src/main/resources</directory>
                 <filtering>true</filtering>
                 <includes>
-                    <include>peptide-shaker.properties</include>
-                    <include>peptide-shaker-splash.svg</include>
+                    <include>protein-shaker.properties</include>
+                    <include>protein-shaker-splash.svg</include>
                 </includes>
             </resource>
             <resource>
                 <directory>src/main/resources</directory>
                 <filtering>false</filtering>
                 <excludes>
-                    <exclude>peptide-shaker.properties</exclude>
-                    <exclude>peptide-shaker-splash.svg</exclude>
+                    <exclude>protein-shaker.properties</exclude>
+                    <exclude>protein-shaker-splash.svg</exclude>
                 </excludes>
             </resource>
         </resources>
@@ -105,7 +105,7 @@
                     <arguments>
                         <argument>${project.build.directory}</argument>
                         <argument>${project.build.directory}/${project.name}-${project.version}</argument>
-                        <argument>peptide-shaker-splash</argument>
+                        <argument>protein-shaker-splash</argument>
                     </arguments>
                 </configuration>
             </plugin>
